@@ -7,39 +7,71 @@
 
 body{
     background:#f8f5ef;
-    text-align:center;
 }
 
-h1{
-    color:#0B3D91;
-    margin-top:50px;
-    font-size:42px;
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 60px;
+    background:#0B3D91;
 }
 
-h3{
-    color:#D4AF37;
-    margin-top:15px;
+.logo{
+    color:white;
     font-size:28px;
+    font-weight:bold;
 }
 
-p{
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:30px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-size:18px;
+}
+
+.hero{
+    text-align:center;
+    padding:120px 20px;
+}
+
+.hero h1{
+    font-size:52px;
+    color:#0B3D91;
+}
+
+.hero h2{
     margin-top:20px;
-    font-size:20px;
+    color:#D4AF37;
+    font-size:34px;
+}
+
+.hero p{
+    margin-top:20px;
+    font-size:22px;
     color:#555;
 }
 
 button{
-    margin-top:30px;
-    padding:15px 35px;
-    background:#0B3D91;
-    color:white;
+    margin-top:35px;
+    padding:15px 40px;
     border:none;
     border-radius:8px;
-    font-size:18px;
+    background:#0B3D91;
+    color:white;
+    font-size:20px;
     cursor:pointer;
 }
 
 button:hover{
     background:#D4AF37;
-    color:#000;
+    color:black;
 }
